@@ -1,4 +1,4 @@
-pkg_yum = {
+pkg_dnf = {
     'htop': {},
 }
 
@@ -9,7 +9,7 @@ files = {
         'mode': "0640",
         'content_type': "text",
         'needs': [
-            "pkg_yum:htop",
+            "pkg_dnf:htop",
         ],
     },
 }
