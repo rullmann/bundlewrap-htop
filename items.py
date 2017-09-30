@@ -4,11 +4,11 @@ pkg_dnf = {
 
 files = {
     '/root/.config/htop/htoprc': {
-        'source': "htoprc",
-        'mode': "0640",
-        'content_type': "text",
+        'source': 'htoprc',
+        'mode': '0640',
+        'content_type': 'text',
         'needs': [
-            "pkg_dnf:htop",
+            'pkg_dnf:htop',
         ],
     },
 }
