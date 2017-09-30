@@ -7,8 +7,6 @@ files = {
         'source': 'htoprc',
         'mode': '0640',
         'content_type': 'text',
-        'needs': [
-            'pkg_dnf:htop',
-        ],
+        'needs': ['pkg_dnf:htop'],
     },
 }
